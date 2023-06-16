@@ -11,6 +11,7 @@ export default function AccountInfo({ publicKey }: Props) {
     const publicKeyBase58String = useMemo(() => publicKey, [publicKey]);
     return (
         <>
+        
             <Chip
                 color="info"
                 sx={{ marginRight: 1 }}
